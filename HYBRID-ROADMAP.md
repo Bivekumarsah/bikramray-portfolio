@@ -25,3 +25,6 @@ Use relative paths for assets and links to support repository subpath hosting. T
 
 ## Safety
 Do not publish unverified work as completed architecture projects. Do not commit secrets, private client plans or unpublished drawings without permission.
+
+## Original portfolio image integration
+The portfolio content is live. The project detail page now supports responsive original PDF sheet galleries, but binary images cannot be written by the current GitHub text-file connector. Upload the extracted page-01.jpg through page-25.jpg into `assets/portfolio-pages/` and `portfolio-bikram-2026.pdf` into `assets/`. Once uploaded, the page galleries appear automatically. Do not publish the prepared ZIP directly as a gallery asset; unzip it first. The existing fallback remains until files are available. No 3D model files were provided, so a working 3D model viewer is deferred.
